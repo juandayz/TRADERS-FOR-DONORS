@@ -67,7 +67,7 @@ Find this block:
             
             if ((_traderMenu select 2) == "friendly") then {
                 _humanity_logic = (_humanity < -5000);
-                _low_high="more than -10000 of Humanity";
+                _low_high="your not friendly";
             };
             if ((_traderMenu select 2) == "hostile") then {
                
