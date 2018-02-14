@@ -151,5 +151,5 @@ menu_yourTraderClassName= [[["WhateverName",category number],["WhateverName",cat
 ```
 example:
 ```
-menu_RU_Profiteer2= [[["Weapons",1050],["Ammo",1051]],[],"donor"];//traderdonor
+menu_RU_Profiteer2= [[["Items",1050],["Backpacks",1051],["Tools",1052],["Weapons",1053],["Ammo",1054],["Vehicles",1055]],[],"donor"];//traderdonor
 ```
