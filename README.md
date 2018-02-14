@@ -127,7 +127,9 @@ Open ...@DayZ_Epoch_Server\addons\dayz_server\traders\chernarus11.sqf and add yo
 ```
 
 4.Open your server_traders.sqf and at very top add your donor trader class name:
-```ruby serverTraders = ["YOur TRADER CLASS NAME","Doctor","RU_Hooker3","Haris_Press_EP1","Woodlander4"....more traders];```
+```ruby 
+serverTraders = ["YOur TRADER CLASS NAME","Doctor","RU_Hooker3","Haris_Press_EP1","Woodlander4"....more traders];
+```
 
 At very bottom add:
 ```ruby
