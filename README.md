@@ -126,7 +126,21 @@ Open ...@DayZ_Epoch_Server\addons\dayz_server\traders\chernarus11.sqf and add yo
 ] call server_spawnTraders;
 ```
 
-4.Open your server_traders.sqf and at very top add your donor trader class name:
+4.Open your ...\mpmissions\your map instance\dayz_code\configs\cfgServerTrader.hpp
+below this line:
+```
+class CfgTradercategory {
+```
+add:
+```ruby
+#include "category\donors.hpp"
+```
+Drop donors.hpp provided here into ...\MPMissions\your map instance\dayz_code\configs\Category\
+and modify at your own taste.
+	
+
+
+5.Open your server_traders.sqf and at very top add your donor trader class name:
 ```ruby 
 serverTraders = ["YOur TRADER CLASS NAME","Doctor","RU_Hooker3","Haris_Press_EP1","Woodlander4"....more traders];
 ```
