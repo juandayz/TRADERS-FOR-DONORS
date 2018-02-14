@@ -113,16 +113,16 @@ if ((getPlayerUID player) in donorlist) then {player setvariable ["donor",1,true
 
 3.Now you need enter your new AI for donor trader... I dont know what map youre using... but for example if u use chernarus11.
 
-Open ...@DayZ_Epoch_Server_taki\addons\dayz_server\traders\chernarus11.sqf and add your new trader class name and coords here:
+Open ...@DayZ_Epoch_Server\addons\dayz_server\traders\chernarus11.sqf and add your new trader class name and coords here:
 ```ruby
 [
-  ["YOUR TRADER CLASS NAME",[COORDS],SET DIR],//ENTER YOUR DONOR TRADER HERE
+        ["YOUR TRADER CLASS NAME",[COORDS],SET DIR],//ENTER YOUR DONOR TRADER HERE
 	["Profiteer4",[11449.5,11341,0],34.5259],
 	["RU_Villager3",[7996.1,2899.08,0.669153],86.8589],
 	["Worker3",[4041.62,11668.9,0],24.9128],
 	["CIV_EuroMan01_EP1",[4064.07,11680.1,0],231.007],
 	["RU_WorkWoman5",[4071.99,11676.7,0],206.817],
-  ............more and more ai.............
+        ............more and more ai.............
 ] call server_spawnTraders;
 ```
 
