@@ -72,11 +72,11 @@ Find this block:
             if ((_traderMenu select 2) == "hostile") then {
                
                 _humanity_logic = (_humanity > -5000);
-                _low_high="humanity to high";
+                _low_high="humanity too high";
             };
             if ((_traderMenu select 2) == "hero") then {
                 _humanity_logic = (_humanity < 5000);
-                _low_high="humanity to low";
+                _low_high="humanity too low";
             };
             if (_humanity_logic) then {
                 _cancel = player addAction  [format["You cannot access: %1 !",_low_high], "\z\addons\dayz_code\actions\trade_cancel.sqf",["na"], 0, true, false];
