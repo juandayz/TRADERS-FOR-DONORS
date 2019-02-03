@@ -1,5 +1,8 @@
 # TRADERS-FOR-DONORS
 
+PLEASE DONATE: https://github.com/juandayz/TRADERS-FOR-DONORS/blob/master/DONATION.md
+
+
 1.Open your custom fn_selfactions.sqf
 
 Find this block:
